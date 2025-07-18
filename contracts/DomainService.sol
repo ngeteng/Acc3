@@ -19,7 +19,7 @@ contract DomainService is ERC721 {
 
     function register(string memory name) public {
         require(isAvailable(name), "Domain is already taken");
-
+        
         uint256 newTokenId = _tokenIdCounter.current();
         _tokenIdCounter.increment();
 
