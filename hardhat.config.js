@@ -17,5 +17,4 @@ module.exports = {
       accounts: [PRIVATE_KEY],
     },
   },
-  defaultNetwork: "hardhat",
 };
